@@ -125,7 +125,7 @@ function query3(collection, callback) {
     [{
         $match: {
           tweet: {
-            $regex: new RegExp(/(@)w+/)
+            $regex: new RegExp(/ @w+/)
           }
         }
       },
@@ -142,27 +142,29 @@ function query3(collection, callback) {
       {
         $match: {
           res: {
-            $regex: new RegExp(/(@)\w/)
+            $regex: new RegExp(/(@)\w+/)
           }
         }
       },
       {
         $group: {
           _id: "$res",
-          tags: {
+          count: {
             $sum: 1
           }
         }
       },
       {
         $sort: {
-          tags: -1
+          count: -1
         }
       },
       {
-        $limit: 5
+        $limit: 10
       }
-    ]).toArray(function(err, docs) {
+    ], {
+      allowDiskUse: true
+    }).toArray(function(err, docs) {
     callback(null, docs);
   });
 }
