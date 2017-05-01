@@ -17,7 +17,7 @@ Pre-requirements
 * You've got the lastest Vagrant pull.
 
 1. Clone the project from github.
-2. Make sure you've got Vagrant VM is up and running with Mongo server installed (v 3.4+ is preferred)
+2. Make sure the Vagrant VM is up and running with Mongo server installed (v 3.4+ is preferred)
 3. Open a terminal in the cloned folder, and run the provided shell script (./download.sh)
 	* It will download and import the training-data set, if allready downloaded it just import it to the running Vargrant VM. 
 4. Type "npm start" in the terminal to start the CLI UI and follow further instruction.
