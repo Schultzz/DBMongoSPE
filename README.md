@@ -116,6 +116,7 @@ db.tweets.aggregate(
 {allowDiskUse: true})
 ```
 Most happy:
+
 User|Avg polrity
 -|-
 wowlew|26.5
