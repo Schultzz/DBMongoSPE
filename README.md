@@ -1,3 +1,5 @@
+# Mongo SPE 
+
 This exercise uses Mongo query, to fetch uses from a rather big dataset of 1.600.000 documents. 
 
 The queries:
