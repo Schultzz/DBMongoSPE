@@ -119,11 +119,11 @@ Most happy:
 
 User|Avg polrity
 -|-
-wowlew|26.5
-Fanny_Ingabout|15.0
-Haarlz|12.25
-SANCHEZJAMIE|10.5
-ggimmickgirl|10.5
+wowlew|4.0
+Fanny_Ingabout|4.0
+Haarlz|4.0
+SANCHEZJAMIE|4.0
+ggimmickgirl|4.0
 
 Most grumpy:
 
